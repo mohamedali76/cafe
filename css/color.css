@@ -1,0 +1,472 @@
+@charset "utf-8";
+/* CSS Document */
+
+body{
+	position: relative;
+}
+.demo_panel_box .spainer{
+	width: 50px;
+	height: 50px;
+	background: #000000;
+	display: block;
+	position: absolute;
+	right: -50px;
+	top: 0px;
+	z-index: 999;
+	text-align: center;
+	font-size: 30px;
+	color: #fff;
+	padding-top: 5px;
+	border-radius: 0px 10px 10px 0px ;
+	cursor: pointer;
+  
+}
+.demo_panel_box{
+	position: fixed;
+	width: 200px;
+	height: 200px;
+	display: block ; 
+	top: 180px;
+	left:-200px;
+	text-align: center;
+	z-index: 9999;
+	background: #191212;
+	cursor: pointer;
+}
+
+.color_panel_box{
+	
+margin-top: 20px;
+	padding: 5px;
+	text-align: center ;
+}
+.color_panel_box span {
+	width: 40px;
+	height: 40px;
+	margin-left: 20px;
+	display: block;
+	border-radius: 5%;
+	float: left;
+	margin-bottom: 15px;
+}
+.color_panel_box span.red_color{ background: #F4512C; } 
+.color_panel_box span.green_color{ background: #CE3175;} 
+.color_panel_box span.yellow_color { background:#CFB095; } 
+.color_panel_box span.black_color{background: #004B8D ;} 
+.color_panel_box span.purple_color{ background: yellow;} 
+.color_panel_box span.blue_color{background: #95DEE3;} 
+/*flame color*/ 
+
+.red_color_bg .topbar  {
+	background: #F4512C;
+	
+}.red_color_bg .topbar p > i  {
+	background: #F4512C;
+	
+}
+.red_color_bg .navbar-default .navbar-nav > li > a.active,
+.red_color_bg .navbar-default .navbar-nav > li > a:hover,
+.red_color_bg .navbar-default .navbar-nav > li > a:focus {
+    color: #333;
+    border-bottom: 4px solid #F4512C;
+}
+.red_color_bg a.goto-btn:hover {
+    color: #ffffff;
+    border-bottom: 2px solid #F4512C;
+}
+
+.red_color_bg #tf-home h1{
+	color: #F4512C;
+	
+}.red_color_bg #tf-intro{
+	background: #F4512C;
+	
+}.red_color_bg .highlight{
+	color: #F4512C;
+	
+}.red_color_bg .highlight{
+	color: #F4512C;
+	
+}
+.red_color_bg .color{
+	background: #F4512C;
+	
+}
+.red_color_bg #tf-footer{
+	background: #F4512C;
+	
+}
+.red_color_bg #myBtn{
+	background: #F4512C;
+	
+}
+.red_color_bg p.help-block.text-danger ul li {
+    display: block;
+    margin-left: -20px;
+    color: #F4512C;
+}
+.red_color_bg #success .alert-danger {
+    color: #F4512C;
+    background-color: #F4512C;
+    border-color: #F4512C;
+    margin-bottom: 10px;
+}
+
+.red_color_bg .contact-detail .fa-phone {
+	background: #F4512C;
+	
+}.red_color_bg .contact-detail .fa-envelope-o {
+	background: #F4512C;
+	
+}.red_color_bg .contact-detail .fa-map-marker{
+	background: #F4512C;
+	
+}.red_color_bg .box .hover-text i.fa.fa-expand {
+	background: #F4512C;
+	
+}.red_color_bg .box .hover-text i.fa.fa-chain {
+	background: #F4512C;
+	
+}.red_color_bg .box .hover-text i.fa:hover { background: #333333 }
+
+
+.red_color_bg .nav.nav-pills > li > a:hover,
+.red_color_bg .nav-pills > li.active > a,
+.red_color_bg .nav-pills > li.active > a:hover,
+.red_color_bg .nav-pills > li.active > a:focus {
+    background-color: #F4512C ;
+    
+}
+
+
+
+/*Pink Yarrow color*/ 
+ 
+.green_color_bg .topbar  {
+	background: #CE3175;
+	
+}.green_color_bg .topbar p > i  {
+	background: #CE3175;
+	
+}
+.green_color_bg .navbar-default .navbar-nav > li > a.active,
+.green_color_bg .navbar-default .navbar-nav > li > a:hover,
+.green_color_bg .navbar-default .navbar-nav > li > a:focus {
+    color: #333;
+    border-bottom: 4px solid #CE3175;
+}
+.green_color_bg a.goto-btn:hover {
+    color: #ffffff;
+    border-bottom: 2px solid #CE3175;
+}
+
+.green_color_bg #tf-home h1{
+	color: #CE3175;
+	
+}.green_color_bg #tf-intro{
+	background: #CE3175;
+	
+}.green_color_bg .highlight{
+	color: #CE3175;
+	
+}.green_color_bg .highlight{
+	color: #CE3175;
+	
+}
+.green_color_bg .color{
+	background: #CE3175;
+	
+}
+.green_color_bg #tf-footer{
+	background: #CE3175;
+	
+}
+.green_color_bg #myBtn{
+	background: #CE3175;
+	
+}
+.green_color_bg p.help-block.text-danger ul li {
+    display: block;
+    margin-left: -20px;
+    color: #CE3175;
+}
+.green_color_bg #success .alert-danger {
+    color: #CE3175;
+    background-color: #CE3175;
+    border-color: #CE3175;
+    margin-bottom: 10px;
+}
+
+.green_color_bg .contact-detail .fa-phone {
+	background: #CE3175;
+	
+}.green_color_bg .contact-detail .fa-envelope-o {
+	background: #CE3175;
+	
+}.green_color_bg .contact-detail .fa-map-marker{
+	background: #CE3175;
+	
+}.green_color_bg .box .hover-text i.fa.fa-expand {
+	background: #CE3175;
+	
+}.green_color_bg .box .hover-text i.fa.fa-chain {
+	background: #CE3175;
+	
+}.green_color_bg .box .hover-text i.fa:hover { background: #333333 }
+
+
+.green_color_bg .nav.nav-pills > li > a:hover,
+.green_color_bg .nav-pills > li.active > a,
+.green_color_bg .nav-pills > li.active > a:hover,
+.green_color_bg .nav-pills > li.active > a:focus {
+    background-color: #CE3175 ;
+    
+}
+
+
+/*Hazelnut color*/ 
+ 
+.y_color_bg .topbar  {
+	background: #CFB095;
+	
+}.y_color_bg .topbar p > i  {
+	background: #CFB095;
+	
+}
+.y_color_bg .navbar-default .navbar-nav > li > a.active,
+.y_color_bg .navbar-default .navbar-nav > li > a:hover,
+.y_color_bg .navbar-default .navbar-nav > li > a:focus {
+    color: #333;
+    border-bottom: 4px solid #CFB095;
+}
+.y_color_bg a.goto-btn:hover {
+    color: #ffffff;
+    border-bottom: 2px solid #CFB095;
+}
+
+.y_color_bg #tf-home h1{
+	color: #CFB095;
+	
+}.y_color_bg #tf-intro{
+	background: #CFB095;
+	
+}.y_color_bg .highlight{
+	color: #CFB095;
+	
+}.y_color_bg .highlight{
+	color: #CFB095;
+	
+}
+.y_color_bg .color{
+	background: #CFB095;
+	
+}
+.y_color_bg #tf-footer{
+	background: #CFB095;
+	
+}
+.y_color_bg #myBtn{
+	background: #CFB095;
+	
+}
+.y_color_bg p.help-block.text-danger ul li {
+    display: block;
+    margin-left: -20px;
+    color: #CFB095;
+}
+.y_color_bg #success .alert-danger {
+    color: #CFB095;
+    background-color: #CFB095;
+    border-color: #CFB095;
+    margin-bottom: 10px;
+}
+
+.y_color_bg .contact-detail .fa-phone {
+	background: #CFB095;
+	
+}.y_color_bg .contact-detail .fa-envelope-o {
+	background: #CFB095;
+	
+}.y_color_bg .contact-detail .fa-map-marker{
+	background: #CFB095;
+	
+}.y_color_bg .box .hover-text i.fa.fa-expand {
+	background: #CFB095;
+	
+}.y_color_bg .box .hover-text i.fa.fa-chain {
+	background: #CFB095;
+	
+}.y_color_bg .box .hover-text i.fa:hover { background: #333333 }
+
+
+.y_color_bg .nav.nav-pills > li > a:hover,
+.y_color_bg .nav-pills > li.active > a,
+.y_color_bg .nav-pills > li.active > a:hover,
+.y_color_bg .nav-pills > li.active > a:focus {
+    background-color: #CFB095 ;
+    
+}
+/*Island Paradise color*/ 
+ 
+.blue_color_bg .topbar  {
+	background: #95DEE3;
+	
+}.blue_color_bg .topbar p > i  {
+	background: #95DEE3;
+	
+}
+.blue_color_bg .navbar-default .navbar-nav > li > a.active,
+.blue_color_bg .navbar-default .navbar-nav > li > a:hover,
+.blue_color_bg .navbar-default .navbar-nav > li > a:focus {
+    color: #333;
+    border-bottom: 4px solid #95DEE3;
+}
+.blue_color_bg a.goto-btn:hover {
+    color: #ffffff;
+    border-bottom: 2px solid #95DEE3;
+}
+
+.blue_color_bg #tf-home h1{
+	color: #95DEE3;
+	
+}.blue_color_bg #tf-intro{
+	background: #95DEE3;
+	
+}.blue_color_bg .highlight{
+	color: #95DEE3;
+	
+}.blue_color_bg .highlight{
+	color: #95DEE3;
+	
+}
+.blue_color_bg .color{
+	background: #95DEE3;
+	
+}
+.blue_color_bg #tf-footer{
+	background: #95DEE3;
+	
+}
+.blue_color_bg #myBtn{
+	background: #95DEE3;
+	
+}
+.blue_color_bg p.help-block.text-danger ul li {
+    display: block;
+    margin-left: -20px;
+    color: #95DEE3;
+}
+.blue_color_bg #success .alert-danger {
+    color: #95DEE3;
+    background-color: #95DEE3;
+    border-color: #95DEE3;
+    margin-bottom: 10px;
+}
+
+.blue_color_bg .contact-detail .fa-phone {
+	background: #95DEE3;
+	
+}.blue_color_bg .contact-detail .fa-envelope-o {
+	background: #95DEE3;
+	
+}.blue_color_bg .contact-detail .fa-map-marker{
+	background: #95DEE3;
+	
+}.blue_color_bg .box .hover-text i.fa.fa-expand {
+	background: #95DEE3;
+	
+}.blue_color_bg .box .hover-text i.fa.fa-chain {
+	background: #95DEE3;
+	
+}.blue_color_bg .box .hover-text i.fa:hover { background: #333333 }
+
+
+.blue_color_bg .nav.nav-pills > li > a:hover,
+.blue_color_bg .nav-pills > li.active > a,
+.blue_color_bg .nav-pills > li.active > a:hover,
+.blue_color_bg .nav-pills > li.active > a:focus {
+    background-color: #95DEE3 ;
+    
+}
+/*I004B8D Lapis Blue color*/ 
+ 
+.black_color_bg .topbar  {
+	background: #004B8D;
+	
+}.black_color_bg .topbar p > i  {
+	background: #004B8D;
+	
+}
+.black_color_bg .navbar-default .navbar-nav > li > a.active,
+.black_color_bg .navbar-default .navbar-nav > li > a:hover,
+.black_color_bg .navbar-default .navbar-nav > li > a:focus {
+    color: #333;
+    border-bottom: 4px solid #004B8D;
+}
+.black_color_bg a.goto-btn:hover {
+    color: #ffffff;
+    border-bottom: 2px solid #004B8D;
+}
+
+.black_color_bg #tf-home h1{
+	color: #004B8D;
+	
+}.black_color_bg  #tf-intro{
+	background: #004B8D;
+	
+}.black_color_bg .highlight{
+	color: #004B8D;
+	
+}.black_color_bg .highlight{
+	color: #004B8D;
+	
+}
+.black_color_bg .color{
+	background: #004B8D;
+	
+}
+.black_color_bg #tf-footer{
+	background: #004B8D;
+	
+}
+.black_color_bg #myBtn{
+	background: #004B8D;
+	
+}
+.black_color_bg p.help-block.text-danger ul li {
+    display: block;
+    margin-left: -20px;
+    color: #004B8D;
+}
+.black_color_bg #success .alert-danger {
+    color: #004B8D;
+    background-color: #004B8D;
+    border-color: #004B8D;
+    margin-bottom: 10px;
+}
+
+.black_color_bg .contact-detail .fa-phone {
+	background: #004B8D;
+	
+}.black_color_bg .contact-detail .fa-envelope-o {
+	background: #004B8D;
+	
+}.black_color_bg .contact-detail .fa-map-marker{
+	background: #004B8D;
+	
+}.black_color_bg .box .hover-text i.fa.fa-expand {
+	background: #004B8D;
+	
+}.black_color_bg .box .hover-text i.fa.fa-chain {
+	background: #004B8D;
+	
+}.black_color_bg .box .hover-text i.fa:hover { background: #333333 }
+
+
+.black_color_bg .nav.nav-pills > li > a:hover,
+.black_color_bg .nav-pills > li.active > a,
+.black_color_bg .nav-pills > li.active > a:hover,
+.black_color_bg .nav-pills > li.active > a:focus {
+    background-color: #004B8D ;
+    
+}
